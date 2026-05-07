@@ -111,14 +111,6 @@ Time to experiment.
    - Looking at ReLU: roughly what fraction of the units are inactive (output exactly 0)?
    - Based on these histograms, why might ReLU be the better default for hidden layers?
 
-### Task 5 — Width Sensitivity (Stretch)
-
-This task is optional but recommended.
-
-1. Build PyTorch MLPs with hidden sizes `[2, 4, 8, 32, 128]`. Keep all other settings fixed.
-2. Without training, run each model on the test set and report the standard deviation of its output probabilities.
-3. In a markdown cell, comment on what happens to output variability as the network gets wider.
-
 ## Submission
 
 ### What to submit
